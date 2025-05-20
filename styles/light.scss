@@ -1,0 +1,48 @@
+/*-- scss:defaults --*/
+$primary: #0066cc;
+$secondary: #004d99;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ff9900;
+$danger: #dc3545;
+
+$font-family-sans-serif: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-family-monospace: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+$body-bg: #ffffff;
+$body-color: #333333;
+
+$headings-font-family: 'Montserrat', sans-serif;
+$headings-color: $primary;
+$headings-font-weight: 600;
+
+$link-color: $primary;
+$link-hover-color: $warning;
+
+$border-radius: 6px;
+$enable-rounded: true;
+$enable-shadows: true;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;700&display=swap');
+
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quarto-title-banner {
+  margin-bottom: 2rem;
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.quarto-title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+  border-left: 1px solid $primary;
+  color: $primary !important;
+}

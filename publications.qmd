@@ -1,0 +1,44 @@
+---
+title: "Publications"
+format:
+  html:
+    toc: true
+---
+
+## Journal Articles
+
+### 2025
+
+- **Kumarasubramanian, H.**, Johnson, A., & Smith, B. (2025). Efficient Adaptation of Foundation Models for Domain-Specific Tasks. *Journal of Machine Learning Research*, 26(3), 1-35. [PDF](https://example.com/pdf) | [Code](https://github.com/example)
+
+- Smith, B., **Kumarasubramanian, H.**, & Wilson, C. (2025). Parameter-Efficient Fine-tuning Methods for Low-Resource Computing Environments. *Transactions on Artificial Intelligence*, 15(2), 223-240. [PDF](https://example.com/pdf) | [Code](https://github.com/example)
+
+### 2024
+
+- **Kumarasubramanian, H.**, & Davis, M. (2024). Quantifying Uncertainty in Large Language Model Outputs. *Computational Linguistics Journal*, 50(1), 78-96. [PDF](https://example.com/pdf) | [Code](https://github.com/example)
+
+- Wilson, C., **Kumarasubramanian, H.**, & Thompson, E. (2024). Bayesian Methods for Model Evaluation in Neural Networks. *Statistics and Computing*, 34(4), 567-582. [PDF](https://example.com/pdf) | [Code](https://github.com/example)
+
+## Conference Proceedings
+
+### 2025
+
+- **Kumarasubramanian, H.**, Martinez, P., & Garcia, S. (2025). Optimizing Transformer Architecture for Resource-Constrained Environments. In *Proceedings of the 39th International Conference on Machine Learning (ICML 2025)*, Vienna, Austria. [PDF](https://example.com/pdf) | [Code](https://github.com/example) | [Slides](https://example.com/slides)
+
+### 2024
+
+- **Kumarasubramanian, H.**, Lee, J., & Johnson, A. (2024). Interpretable Attention Mechanisms for Domain-Specific Language Models. In *Advances in Neural Information Processing Systems 37 (NeurIPS 2024)*, Montreal, Canada. [PDF](https://example.com/pdf) | [Code](https://github.com/example) | [Poster](https://example.com/poster)
+
+- Davis, M., **Kumarasubramanian, H.**, & Smith, B. (2024). Robust Evaluation Metrics for Foundation Models. In *Proceedings of the 68th Annual Meeting of the Association for Computational Linguistics (ACL 2024)*, Seattle, USA. [PDF](https://example.com/pdf) | [Code](https://github.com/example)
+
+## Preprints
+
+- **Kumarasubramanian, H.**, Wilson, C., & Thompson, E. (2025). Survey of Knowledge Distillation Techniques for Large Language Models. *arXiv preprint arXiv:2505.12345*. [PDF](https://example.com/pdf)
+
+- **Kumarasubramanian, H.**, & Johnson, A. (2024). Causal Inference in Natural Language Processing: A Review. *arXiv preprint arXiv:2404.54321*. [PDF](https://example.com/pdf)
+
+## Technical Reports
+
+- **Kumarasubramanian, H.** (2025). Benchmarking Efficiency-Performance Tradeoffs in Modern Foundation Models. Technical Report TR-2025-03, Infosys Research Lab. [PDF](https://example.com/pdf)
+
+- **Kumarasubramanian, H.**, & Martinez, P. (2024). Best Practices for Deploying Large Language Models in Production. Technical Report TR-2024-08, Infosys Research Lab. [PDF](https://example.com/pdf)

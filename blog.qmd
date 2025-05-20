@@ -1,0 +1,14 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  feed: true
+page-layout: full
+---
+
+Welcome to my blog where I share insights about machine learning, AI research, and professional development in tech. Here you'll find technical tutorials, research summaries, and thoughts on the evolving landscape of artificial intelligence.

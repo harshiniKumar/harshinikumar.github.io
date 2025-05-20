@@ -1,0 +1,68 @@
+---
+title: "Research"
+format:
+  html:
+    toc: true
+---
+
+## Foundation Model Research
+
+My research in foundation models focuses on improving efficiency and applicability of large language models across diverse domains.
+
+### Current Projects
+
+#### Efficient Fine-tuning for Domain Adaptation
+
+![Fine-tuning Illustration](images/fine-tuning.jpg)
+
+This project explores techniques to efficiently adapt pre-trained foundation models to specific domains with minimal computational resources. Key innovations include:
+
+- Parameter-efficient fine-tuning methodologies (LoRA, QLoRA, Adapters)
+- Quantization approaches that preserve model quality
+- Selective layer updates based on task requirements
+- Memory-efficient training algorithms
+
+**Status**: Currently evaluating performance trade-offs across multiple model architectures.
+
+#### Explainable Foundation Models
+
+This research stream focuses on making foundation model decisions more transparent and interpretable. We're developing:
+
+- Attention visualization tools that highlight influential tokens
+- Counterfactual explanation generators
+- Saliency mapping for important input features
+- Model-agnostic interpretation mechanisms
+
+### Collaborative Work
+
+I collaborate with researchers across disciplines to apply foundation models to specialized domains:
+
+- **Healthcare**: Adapting models for medical text processing while maintaining privacy
+- **Legal**: Building tools for legal document analysis and case summarization
+- **Scientific Literature**: Developing systems to assist with research paper understanding and synthesis
+
+## Statistical Modeling
+
+My statistical modeling work emphasizes rigorous methodologies and uncertainty quantification.
+
+### Bayesian Approaches
+
+I employ Bayesian methods to quantify uncertainty in model predictions and parameter estimates:
+
+- Hierarchical modeling for complex data structures
+- Markov Chain Monte Carlo simulations
+- Probabilistic programming with Stan and PyMC
+- Prior sensitivity analysis
+
+### Reproducible Research Practices
+
+I'm committed to improving research reproducibility through:
+
+- Open code and data sharing
+- Pre-registration of analysis plans
+- Robust statistical practices that avoid p-hacking
+- Comprehensive reporting of methods and results
+
+## Want to collaborate?
+
+If you're interested in working together on any of these research areas, please [contact me](mailto:harshinikumar118@gmail.com).

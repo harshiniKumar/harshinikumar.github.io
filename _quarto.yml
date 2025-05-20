@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!README.md"
+    - "!LICENSE.md"
+
+website:
+  title: "Harshini Kumarasubramanian"
+  favicon: images/favicon.ico
+  site-url: https://harshini-kumar.github.io
+  repo-url: https://github.com/harshiniKumar/harshini.github.io
+  repo-actions: [edit, issue]
+  open-graph: true
+  twitter-card: true
+  page-footer:
+    left: |
+      © 2025 Harshini Kumarasubramanian<br>
+      Made with [Quarto](https://quarto.org)
+    right: |
+      [License](LICENSE.md)
+
+  navbar:
+    background: primary
+    title: false
+    collapse-below: lg
+    left:
+      - text: Home
+        href: index.md
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Blog
+        href: blog.qmd
+
+format:
+  html:
+    theme: 
+      light: [flatly, styles/light.scss]
+      dark: [darkly, styles/dark.scss]
+    css: styles/styles.css
+    toc: true
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: github

@@ -1,0 +1,113 @@
+/* Custom styles for the website */
+
+/* General styling */
+:root {
+    --primary-color: #0066cc;
+    --secondary-color: #004d99;
+    --accent-color: #ff9900;
+    --text-color: #333333;
+    --link-hover-color: #ff9900;
+    --background-light: #f8f9fa;
+    --font-main: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-code: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --font-heading: 'Montserrat', sans-serif;
+    --border-radius: 6px;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    font-family: var(--font-main);
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+  }
+  
+  /* About section styling */
+  #about-heading {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #about-heading h2 {
+    margin-top: 2rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+  }
+  
+  #about-heading h3 {
+    color: var(--secondary-color);
+    margin-top: 1.5rem;
+  }
+  
+  #about-heading p {
+    font-size: 1.1rem;
+  }
+  
+  /* Card and project styling */
+  .card {
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Code blocks */
+  pre, code {
+    font-family: var(--font-code);
+    border-radius: var(--border-radius);
+  }
+  
+  /* Special sections */
+  .callout {
+    border-left: 4px solid var(--accent-color);
+    background-color: var(--background-light);
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  }
+  
+  /* Footer styling */
+  .page-footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e5e5;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    :root {
+      --border-radius: 4px;
+    }
+    
+    body {
+      font-size: 16px;
+    }
+    
+    h1 {
+      font-size: 1.8rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
